@@ -28,7 +28,7 @@ def inverted_pyramid(n):
 def diamond(n):
     """Prints a diamond shape of stars."""
     pyramid(n)
-    inverted_pyramid(n - 1)
+    inverted_pyramid(n)
 
 
 if __name__ == "__main__":
